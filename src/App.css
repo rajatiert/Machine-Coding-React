@@ -1,0 +1,67 @@
+.container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid black;
+  box-sizing: border-box;
+}
+
+.traffic-container { 
+ 
+  border-radius : 30px;
+  display: flex;
+  flex-direction: column;
+  gap:30px;
+}
+
+.light1{
+  border : 1px solid black;
+  width: 60px;
+  height: 60px;
+  border-radius: 40px;
+}
+
+.light2{
+  border : 1px solid black;
+  width: 60px;
+  height: 60px;
+  border-radius: 40px;
+}
+
+.light3{
+  border : 1px solid black;
+  width: 60px;
+  height: 60px;
+  border-radius: 40px;
+}
+
+.counter {
+  font-size: xx-large;
+  color : black;
+  font-weight: 600;
+}
+
+.stopwatch{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.stopwatch-buttons{
+  display: flex;
+  gap:10px;
+}
+
+.progress-bar{
+  height: 40px;
+  width: 50%;
+  display: flex;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  border : 1px solid black;
+}
